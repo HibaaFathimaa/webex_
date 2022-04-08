@@ -1,0 +1,233 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  body{
+    width: 67rem;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #800000;
+    border-radius: 1.2rem;
+    border: 0.02rem;
+    color: black;
+    border-style: solid;
+    transition: all 0.8s;
+    width: 67rem;
+  }
+  header:hover {
+    transform: scale(1.02);
+  }
+  .logo {
+    height: fit-content;
+  }
+  .logo-img {
+    height: 8rem;
+  }
+  .nav {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .nav-items {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #800000;
+  }
+  .home {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+  .home:hover {
+    color: red;
+    font-weight: bolder;
+  }
+  .about {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+  .about:hover {
+    color: red;
+    font-weight: bolder;
+  }
+  .education {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+  .education:hover {
+    color: red;
+    font-weight: bolder;
+  }
+  .contact {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+  .contact:hover {
+    color: red;
+    font-weight: bolder;
+  }
+  .container {
+    margin: 3rem;
+    margin-right: 0%;
+    position: relative;
+    display: flex;
+    width: 40rem;
+    height: 100%;
+  }
+  .container-box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    height: 900px;
+    width: 2000px;
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+  .content {
+    margin-top: 1rem;
+    padding: 3rem;
+    padding-right: 1rem;
+    display: block;
+    justify-content: space-between;
+    height: 300px;
+    width: 400px;
+    background-color:#A0522D;
+    border-radius: 0.7rem;
+    align-items: center;
+  }
+  .my-img {
+    margin-left: 9rem;
+    margin-top: 1rem;
+    height: 25rem;
+    border-radius: 0.7rem;
+  }
+  .content h1 {
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  .para {
+    color: pink;
+    padding-bottom: 5rem;
+    font-size: 1.35rem;
+    font-weight: bold;
+  }
+  .table {
+    padding: 2rem;
+    width: 50rem;
+    height: 15rem;
+    color:#250702;
+  }
+  .table-dark {
+    background-color: #212529;
+    color: #fff;
+    border-color: #250702;
+  }
+  section #contact{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer{
+    margin: 0%;
+    padding: 0%;
+    height: 200px;
+    border-radius: 1rem;
+    background-color: #800000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_media{
+    display: block;
+    align-items: center;
+    padding: 0.1rem;
+  }
+  .media{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+  #media-whatsapp{
+    padding: 0.4rem;
+    border: 2px;
+    color: white;
+    border-radius: 3rem;
+  }
+  #media-whatsapp:hover{
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+  }
+  #media-insta{
+    padding: 0.4rem;
+    border: 2px;
+    color: white;
+    border-radius: 3rem;
+  }
+  #media-insta:hover{
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+  }
+  #media-linkedin{
+    padding: 0.4rem;
+    border: 2px;
+    color: white;
+    border-radius: 3rem;
+  }
+  #media-linkedin:hover{
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+  }
+  .input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+  .input-field-textarea{
+    height: 150px;
+    padding-top: 10px;
+  }
+  .hum{
+    float: left;
+    width: 300px;
+    height: 220px;
+    padding: 3px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    border-radius: 0.6rem;
+  }
+  .tm{
+    margin-left: 0.5rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    height: 220px;
+    width: 175px;
+    border-radius: 0.6rem;
+    overflow: auto;
+  }
+  .isi{
+    margin-left: 3rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+  }
+  .ab{
+    padding: 0%;
+    margin-left: 2rem;
+  }
